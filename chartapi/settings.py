@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-8y$-6$e_4q0gz%v+*jd1(ysh$)9&ukhz3-0&bz(4i6l(82g8a@
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-CSRF_TRUSTED_ORIGINS = ['','https://*.127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['https://charts-api.onrender.com','https://*.127.0.0.1']
 
 
 # Application definition
@@ -58,7 +58,6 @@ MIDDLEWARE = [
 CORS_ALLOW_ALL_ORIGINS = True
 
 CORS_ALLOWED_ORIGINS = [
-    'https://block-house-chart.netlify.app/',
     'https://charts-api.onrender.com',
 ]
 CORS_ALLOW_METHODS = [
