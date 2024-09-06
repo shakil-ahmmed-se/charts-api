@@ -57,10 +57,10 @@ MIDDLEWARE = [
 
 CORS_ALLOW_ALL_ORIGINS = True
 
-# CORS_ALLOWED_ORIGINS = [
-#     '',
-#     '',
-# ]
+CORS_ALLOWED_ORIGINS = [
+    'https://block-house-chart.netlify.app/',
+    'https://charts-api.onrender.com',
+]
 CORS_ALLOW_METHODS = [
     'GET',
     'POST',
